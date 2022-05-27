@@ -1,0 +1,61 @@
+
+.bground{
+    width: 99.99%;
+    height: 99vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/aoshima-cats.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.card1{
+    background-image: url(images/potion.jpg);
+}
+.card2{
+    background-image: url(images/brooms.png);
+}
+.card3{
+    background-image: url(images/cauldron.jpg);
+}
+.card4{
+    background-image: url(images/magicwands.jpg);
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.card{
+    transition: 1s;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5%;
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    border:3px solid rgb(38, 43, 70, 0.3);
+}
+.address{
+    color: #444;
+    padding: 40px;
+    font-size: 30px;
+}
+.link{
+    background-color: rgb(255, 158, 158);
+    padding:10px;
+    border-radius: 10px;
+}
+.option{
+    text-align: center;
+    line-height: 28px;
+    width: 100%;
+}
+.answer{
+    text-align: center;
+    vertical-align: middle;
+}
+.header{
+    padding: 16px;
+}
